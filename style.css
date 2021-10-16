@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://www.totallyfreecursors.com/');
+@import url('https://downloads.totallyfreecursors.com/public/CursorsLogo88-31.gif');
+html, body
+{
+    z-index:9;visibility:visible;
+}
+
+HTML,BODY{
+    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/rainbow-ani.ani"), 
+    url("https://downloads.totallyfreecursors.com/thumbnails/rainbow-ani3.gif"), auto;
+}
+*
+{
+    
+    font-family: 'Festive', cursive;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 200px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: lightblue; 
+  }
